@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "leetcode-py"
+version = "0.1.0"
+description = ""
+authors = ["정승현 <tmdgusya@naver.com>"]
+readme = "README.md"
+packages = [{include = "leetcode_py"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pytest = "^7.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
